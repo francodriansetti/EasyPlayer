@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		02404BE41FBB8F8A00F54FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02404BE31FBB8F8A00F54FE2 /* AppDelegate.swift */; };
-		02404BE61FBB8F8A00F54FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02404BE51FBB8F8A00F54FE2 /* ViewController.swift */; };
 		02404BE91FBB8F8A00F54FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02404BE71FBB8F8A00F54FE2 /* Main.storyboard */; };
 		02404BEB1FBB8F8A00F54FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02404BEA1FBB8F8A00F54FE2 /* Assets.xcassets */; };
 		02404BEE1FBB8F8A00F54FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02404BEC1FBB8F8A00F54FE2 /* LaunchScreen.storyboard */; };
+		02404BF91FBB90B100F54FE2 /* ContentListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02404BF81FBB90B100F54FE2 /* ContentListTableViewController.swift */; };
+		02404BFC1FBB96FC00F54FE2 /* ContentListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02404BFB1FBB96FC00F54FE2 /* ContentListCell.xib */; };
+		02404BFE1FBB984000F54FE2 /* ContentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02404BFD1FBB984000F54FE2 /* ContentListTableViewCell.swift */; };
+		02404C001FBB9D9600F54FE2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02404BFF1FBB9D9600F54FE2 /* PlayerViewController.swift */; };
+		029876D21FBCE085009565E0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029876D11FBCE085009565E0 /* APIManager.swift */; };
+		029876D41FBCE123009565E0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029876D31FBCE123009565E0 /* MovieModel.swift */; };
+		8FDEE9F8E1B90FE9203EF763 /* Pods_EasyVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B035C39669B62276C9548A6 /* Pods_EasyVideoPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02404BE01FBB8F8A00F54FE2 /* EasyVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02404BE31FBB8F8A00F54FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02404BE51FBB8F8A00F54FE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02404BE81FBB8F8A00F54FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02404BEA1FBB8F8A00F54FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02404BED1FBB8F8A00F54FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02404BEF1FBB8F8A00F54FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02404BF81FBB90B100F54FE2 /* ContentListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListTableViewController.swift; sourceTree = "<group>"; };
+		02404BFB1FBB96FC00F54FE2 /* ContentListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentListCell.xib; sourceTree = "<group>"; };
+		02404BFD1FBB984000F54FE2 /* ContentListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListTableViewCell.swift; sourceTree = "<group>"; };
+		02404BFF1FBB9D9600F54FE2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		029876D11FBCE085009565E0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		029876D31FBCE123009565E0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		5B035C39669B62276C9548A6 /* Pods_EasyVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6835A2E7800739E80A20E50E /* Pods-EasyVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyVideoPlayer/Pods-EasyVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1E672275976CCA104A7250 /* Pods-EasyVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyVideoPlayer/Pods-EasyVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDEE9F8E1B90FE9203EF763 /* Pods_EasyVideoPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				02404BE21FBB8F8A00F54FE2 /* EasyVideoPlayer */,
 				02404BE11FBB8F8A00F54FE2 /* Products */,
+				FBB3C7B1984CC99A596C2607 /* Pods */,
+				29871BA45558CE6DBAD5AF09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,68 @@
 		02404BE21FBB8F8A00F54FE2 /* EasyVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				029876D01FBCE056009565E0 /* Utility */,
+				02404BF71FBB902600F54FE2 /* Controller */,
+				02404BF61FBB902000F54FE2 /* View */,
+				02404BF51FBB8FC700F54FE2 /* Model */,
 				02404BE31FBB8F8A00F54FE2 /* AppDelegate.swift */,
-				02404BE51FBB8F8A00F54FE2 /* ViewController.swift */,
 				02404BE71FBB8F8A00F54FE2 /* Main.storyboard */,
 				02404BEA1FBB8F8A00F54FE2 /* Assets.xcassets */,
 				02404BEC1FBB8F8A00F54FE2 /* LaunchScreen.storyboard */,
 				02404BEF1FBB8F8A00F54FE2 /* Info.plist */,
 			);
 			path = EasyVideoPlayer;
+			sourceTree = "<group>";
+		};
+		02404BF51FBB8FC700F54FE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				029876D31FBCE123009565E0 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02404BF61FBB902000F54FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02404BFB1FBB96FC00F54FE2 /* ContentListCell.xib */,
+				02404BFD1FBB984000F54FE2 /* ContentListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02404BF71FBB902600F54FE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02404BF81FBB90B100F54FE2 /* ContentListTableViewController.swift */,
+				02404BFF1FBB9D9600F54FE2 /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		029876D01FBCE056009565E0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				029876D11FBCE085009565E0 /* APIManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		29871BA45558CE6DBAD5AF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B035C39669B62276C9548A6 /* Pods_EasyVideoPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB3C7B1984CC99A596C2607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6835A2E7800739E80A20E50E /* Pods-EasyVideoPlayer.debug.xcconfig */,
+				6C1E672275976CCA104A7250 /* Pods-EasyVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02404BF21FBB8F8B00F54FE2 /* Build configuration list for PBXNativeTarget "EasyVideoPlayer" */;
 			buildPhases = (
+				0C715210AB586B2901B2A941 /* [CP] Check Pods Manifest.lock */,
 				02404BDC1FBB8F8A00F54FE2 /* Sources */,
 				02404BDD1FBB8F8A00F54FE2 /* Frameworks */,
 				02404BDE1FBB8F8A00F54FE2 /* Resources */,
+				A4009E319A7B39CD19A94559 /* [CP] Embed Pods Frameworks */,
+				73F666E113E25426F454F7EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,18 +200,85 @@
 				02404BEE1FBB8F8A00F54FE2 /* LaunchScreen.storyboard in Resources */,
 				02404BEB1FBB8F8A00F54FE2 /* Assets.xcassets in Resources */,
 				02404BE91FBB8F8A00F54FE2 /* Main.storyboard in Resources */,
+				02404BFC1FBB96FC00F54FE2 /* ContentListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C715210AB586B2901B2A941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F666E113E25426F454F7EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyVideoPlayer/Pods-EasyVideoPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4009E319A7B39CD19A94559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyVideoPlayer/Pods-EasyVideoPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyVideoPlayer/Pods-EasyVideoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02404BDC1FBB8F8A00F54FE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02404BE61FBB8F8A00F54FE2 /* ViewController.swift in Sources */,
+				029876D41FBCE123009565E0 /* MovieModel.swift in Sources */,
+				02404BF91FBB90B100F54FE2 /* ContentListTableViewController.swift in Sources */,
+				02404C001FBB9D9600F54FE2 /* PlayerViewController.swift in Sources */,
+				029876D21FBCE085009565E0 /* APIManager.swift in Sources */,
 				02404BE41FBB8F8A00F54FE2 /* AppDelegate.swift in Sources */,
+				02404BFE1FBB984000F54FE2 /* ContentListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +413,7 @@
 		};
 		02404BF31FBB8F8B00F54FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6835A2E7800739E80A20E50E /* Pods-EasyVideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +429,7 @@
 		};
 		02404BF41FBB8F8B00F54FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1E672275976CCA104A7250 /* Pods-EasyVideoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

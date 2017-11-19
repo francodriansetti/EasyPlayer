@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="content_list_cell" rowHeight="71" id="vHE-lH-feG" customClass="ContentListTableViewCell" customModule="EasyVideoPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="488" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vHE-lH-feG" id="fsv-rj-VdU">
+                <rect key="frame" x="0.0" y="0.0" width="488" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_movie_placeholder" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x7N-LF-m51">
+                        <rect key="frame" x="5" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="x7N-LF-m51" secondAttribute="height" multiplier="1:1" id="7Jl-wI-cOC"/>
+                            <constraint firstAttribute="height" priority="999" constant="50" id="NnD-bC-uHd"/>
+                            <constraint firstAttribute="width" priority="999" constant="50" id="nG2-nH-bXC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tB-QI-aaY">
+                        <rect key="frame" x="60" y="25.5" width="408" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="0tB-QI-aaY" secondAttribute="trailing" id="6Jf-rF-Kk0"/>
+                    <constraint firstItem="0tB-QI-aaY" firstAttribute="leading" secondItem="x7N-LF-m51" secondAttribute="trailing" constant="5" id="E3G-du-S3Z"/>
+                    <constraint firstAttribute="bottom" secondItem="x7N-LF-m51" secondAttribute="bottom" constant="10" id="JYR-aq-WXZ"/>
+                    <constraint firstItem="x7N-LF-m51" firstAttribute="leading" secondItem="fsv-rj-VdU" secondAttribute="leading" constant="5" id="ew8-0h-KjT"/>
+                    <constraint firstItem="0tB-QI-aaY" firstAttribute="centerY" secondItem="x7N-LF-m51" secondAttribute="centerY" id="fzW-f5-ltX"/>
+                    <constraint firstItem="x7N-LF-m51" firstAttribute="top" secondItem="fsv-rj-VdU" secondAttribute="top" constant="10" id="jYQ-dF-RGZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellImage" destination="x7N-LF-m51" id="6Sf-Ao-UQn"/>
+                <outlet property="titleLabel" destination="0tB-QI-aaY" id="JHW-tg-Dm0"/>
+            </connections>
+            <point key="canvasLocation" x="41" y="93.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_movie_placeholder" width="256" height="256"/>
+    </resources>
+</document>
